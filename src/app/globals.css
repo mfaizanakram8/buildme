@@ -19,3 +19,69 @@ body {
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+/* Full-height yellow background behind "BUILD DREAM" */
+.logo-bg {
+  position: absolute;
+  width: 270px; /* Adjust width as needed */
+  height: 100%; /* Full height of the navbar */
+  background-color: #EBAE15; /* Yellow background color */
+  clip-path: polygon(0 0, 90% 0, 100% 100%, 0% 100%);
+  z-index: 0;
+  transition: width 0.3s ease; /* Slide effect */
+}
+
+.logo-bg:hover {
+  width: 140px; /* Expand on hover */
+}
+
+/* Top Bar */
+.text-yellow-500 {
+  color: #ffbf00;
+}
+
+/* Adjusted .logo-bg1 for better readability */
+.logo-bg1 {
+  position: absolute;
+  width: 120px; /* Adjust width as needed */
+  height: 100%; /* Full height of the navbar */
+  background-color: #EBAE15; /* Yellow background color */
+  clip-path: polygon(0% 0%, 90% 0%, 100% 100%, 10% 100%);
+  text-align: center;
+  z-index: 0;
+  transition: width 0.3s ease; /* Slide effect */
+}
+
+.logo-bg4 {
+  position: absolute;
+  width: 60%; /* Adjust width as needed */
+  height: 300px; /* Full height of the navbar */
+  background-color: #EBAE15; /* Yellow background color */
+  clip-path: polygon(0 0, 90% 0, 100% 100%, 0% 100%);
+  z-index: 0;
+  transition: width 0.3s ease; /* Slide effect */
+}
+
+.logo-bg5 {
+  position: absolute;
+  width: 58%; /* Adjust width as needed */
+  height: 270px;
+  clip-path: polygon(0 0, 90% 0, 100% 100%, 0% 100%);
+  z-index: 30;
+  margin-top: 100px;
+  background-color: white;
+  margin-left: 2px;
+  transition: width 0.3s ease;
+  box-sizing: border-box; /* Ensure border is included in dimensions */
+}
+
+.logo-bg6 {
+  position: absolute;
+  width: 57.9%; /* Adjust width as needed */
+  height: 264px; /* Full height of the navbar */
+  background-color: #EBAE15; /* Yellow background color */
+  clip-path: polygon(0 0, 90% 0, 100% 100%, 0% 100%);
+  z-index: 40;
+  margin-top: 100px;
+  transition: width 0.3s ease; /* Slide effect */
+}
