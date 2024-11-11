@@ -29,7 +29,7 @@ const Hero = () => {
 
         {/* Button */}
         <div className="mt-28  Gilroy-Bold">
-          <button  className="border border-[#EBAE15] px-6 py-2 text-[#EBAE15] font-semibold shadow-lg shadow-custom-yellow hover:text-white hover:bg-[#EBAE15] text-lg transition-all duration-300">
+          <button   className="border-[2px] border-[#EBAE15] px-6 py-2 rounded-md text-[#EBAE15] font-semibold shadow-custom-yellow hover:text-white hover:bg-[#EBAE15] text-lg transition-all duration-300">
             Find Out More
           </button>
         </div>

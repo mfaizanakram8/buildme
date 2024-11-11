@@ -8,6 +8,9 @@ export default {
   ],
   theme: {
     extend: {
+      boxShadow: {
+        'custom-yellow': '0 0 10px rgba(235, 174, 21, 0.8)', // Spread and color adjusted
+      },
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
