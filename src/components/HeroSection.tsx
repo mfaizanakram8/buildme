@@ -14,21 +14,21 @@ const Hero = () => {
         </div>
 
         {/* Main Title */}
-        <h1 className="text-[54px] text-white">
+        <h1 className="text-[54px] text-white Gilroy-Bold">
           WE WILL BE <span className="text-[#EBAE15]">HAPPY</span> TO <br />
           TAKE CARE OF YOUR <br />
           WORK
         </h1>
 
         {/* Description */}
-        <p className="text-white text-sm mt-10">
+        <p className="text-white text-sm mt-10 Gilroy-Medium">
           Lorem ipsum dolor sit amet consectetur. <br />
           Tortor justo consequat pharetra justquis <br />
           Tortor justo consequat pharetra justquis
         </p>
 
         {/* Button */}
-        <div className="mt-28">
+        <div className="mt-28  Gilroy-Bold">
           <button className="border border-[#EBAE15] px-1 py-2 text-[#EBAE15] font-semibold shadow shadow-custom-yellow hover:text-white hover:bg-custom-yellow text-lg">
             Find Out More
           </button>

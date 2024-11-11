@@ -45,8 +45,8 @@ const Staff = () => {
 
             {/* Name and Role with Hover Background */}
             <div className='bg-gray-800 h-[130px] w-full flex flex-col justify-center items-center rounded-b-2xl transition-colors duration-300 group-hover:bg-yellow-500'>
-              <h1 className='pt-2 text-white text-2xl font-bold'>{member.name}</h1>
-              <h4 className='pt-3 text-white text-lg'>{member.role}</h4>
+              <h1 className='pt-2 text-white text-2xl font-bold Gilroy-bold'>{member.name}</h1>
+              <h4 className='pt-3 text-white text-lg Gilroy-bold'>{member.role}</h4>
             </div>
           </div>
         ))}

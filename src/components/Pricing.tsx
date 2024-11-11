@@ -16,7 +16,7 @@ const Pricing = () => {
         <div className="py-[40px] px-[60px] bg-white shadow shadow-gray-400 flex flex-col justify-center items-center">
           <h3 className="font-semibold text-xl">BASIC PLAN</h3>
           <Image src="/p3.png" alt="Basic Plan" width={96} height={96} className="my-6" />
-          <p className="text-start text-[#8C8C8C] my-5">
+          <p className="text-start text-[#8C8C8C] my-5 Gilroy-medium">
             Far far away, behind the <br />
             word mountains, far from <br />
             the countries Vokalia and <br />
@@ -30,7 +30,7 @@ const Pricing = () => {
         <div className="py-[40px] px-[60px] bg-white shadow shadow-gray-400 flex flex-col justify-center items-center mx-10">
           <h3 className="font-semibold text-xl">BEGINNER PLAN</h3>
           <Image src="/p1.png" alt="Beginner Plan" width={96} height={96} className="my-6" />
-          <p className="text-start text-[#8C8C8C] my-5">
+          <p className="text-start text-[#8C8C8C] my-5 Gilroy-medium">
             Far far away, behind the <br />
             word mountains, far from <br />
             the countries Vokalia and <br />
@@ -44,7 +44,7 @@ const Pricing = () => {
         <div className="py-[40px] px-[60px] bg-white shadow shadow-gray-400 flex flex-col justify-center items-center">
           <h3 className="font-semibold text-xl">PREMIUM PLAN</h3>
           <Image src="/p2.png" alt="Premium Plan" width={96} height={96} className="my-6" />
-          <p className="text-start text-[#8C8C8C] my-5">
+          <p className="text-start text-[#8C8C8C] my-5 Gilroy-medium">
             Far far away, behind the <br />
             word mountains, far from <br />
             the countries Vokalia and <br />

@@ -13,7 +13,7 @@ const Project = () => {
           </div>
           <div className="ml-5">
             <h1 className="text-3xl text-custom-yellow mb-2 font-bold">500</h1>
-            <p className="text-white text-xl font-semibold">
+            <p className="text-white text-xl font-semibold Gilroy-bold">
               COMPLETED PROJECTS
             </p>
           </div>
@@ -26,7 +26,7 @@ const Project = () => {
           </div>
           <div className="ml-5">
             <h1 className="text-3xl text-custom-yellow mb-2 font-bold">50</h1>
-            <p className="text-white text-xl font-semibold">
+            <p className="text-white text-xl font-semibold Gilroy-bold">
               HAPPY CLIENT
             </p>
           </div>
@@ -39,7 +39,7 @@ const Project = () => {
           </div>
           <div className="ml-5">
             <h1 className="text-3xl text-custom-yellow mb-2 font-bold">100</h1>
-            <p className="text-white text-xl font-semibold">
+            <p className="text-white text-xl font-semibold Gilroy-bold">
               ENGINEERS AND STAFF
             </p>
           </div>

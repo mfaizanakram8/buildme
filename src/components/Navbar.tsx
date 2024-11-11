@@ -28,31 +28,31 @@ const Navbar = () => {
 
         {/* Logo with Full-Height Yellow Background */}
         <div className="relative h-full flex items-center">
-          <span className="text-white font-bold text-2xl relative z-10 px-4">BUILD DREAM</span>
+          <span className="text-white font-bold text-2xl relative z-10 px-4 Gilroy-Heavy">BUILD DREAM</span>
         </div>
 
         {/* Nav Links */}
         <div className="flex space-x-16 text-white font-medium">
           {/* Use Link component for Next.js navigation */}
-          <Link href="#home" className=" relative text-[#000000] ">
+          <Link href="#home" className=" relative text-[#000000] Gilroy-Bold ">
         HOME   
           </Link>
-          <Link href="#about" className="hover:text-[#EBAE15]">
+          <Link href="#about" className="hover:text-[#EBAE15] Gilroy-SemiBold">
            ABOUT
           </Link>
-          <Link href="#services" className="hover:text-[#EBAE15]">
+          <Link href="#services" className="hover:text-[#EBAE15] Gilroy-SemiBold">
             SERVICES
           </Link>
-          <Link href="#projects" className="hover:text-[#EBAE15]">
+          <Link href="#projects" className="hover:text-[#EBAE15] Gilroy-SemiBold">
             PROJECTS
           </Link>
-          <Link href="#pricing" className="hover:text-[#EBAE15]">
+          <Link href="#pricing" className="hover:text-[#EBAE15] Gilroy-SemiBold">
             PRICING
           </Link>
-          <Link href="#blog" className="hover:text-[#EBAE15]">
+          <Link href="#blog" className="hover:text-[#EBAE15] Gilroy-SemiBold">
             BLOG
           </Link>
-          <Link href="#contact" className="hover:text-[#EBAE15]">
+          <Link href="#contact" className="hover:text-[#EBAE15] Gilroy-SemiBold">
         CONTACT
           </Link>
         </div>

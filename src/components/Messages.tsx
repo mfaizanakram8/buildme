@@ -9,7 +9,7 @@ const Messages = () => {
         <h1 className="text-4xl font-bold mt-4">Request A Quote</h1>
 
         {/* Form */}
-        <form className="mt-8 space-y-6">
+        <form className="mt-8 space-y-6 Gilroy-medium">
           <div className="flex space-x-6">
             <div className="w-1/2">
               <label className="block text-gray-700 text-lg font-medium mb-2" htmlFor="fullName">

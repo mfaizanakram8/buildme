@@ -82,15 +82,15 @@ const Testimonials = () => {
                 className="w-20 h-20 rounded-full border-2 border-gray-300 mr-4"
               />
               <div>
-                <h4 className="font-bold text-3xl">{testimonial.name.toUpperCase()}</h4>
+                <h4 className="font-bold text-3xl Gilroy-medium">{testimonial.name.toUpperCase()}</h4>
                 <p
-                  className={`text-xl text-custom-yellow transition-colors duration-300 group-hover:text-white`}
+                  className={` Gilroy-medium text-xl text-custom-yellow transition-colors duration-300 group-hover:text-white`}
                 >
                   {testimonial.role}
                 </p>
               </div>
             </div>
-            <p className="text-[25px] mt-10 ml-5">{testimonial.text}</p>
+            <p className="text-[25px] mt-10 ml-5 Gilroy-medium">{testimonial.text}</p>
           </div>
         ))}
       </div>

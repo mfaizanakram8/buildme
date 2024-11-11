@@ -12,10 +12,10 @@ const Contact = () => {
           <div className='flex flex-col text-white justify-center items-center h-[200px]'>
             <span className="logo-bg5 absolute left-0"></span>
             <span className="logo-bg6 absolute left-0"></span>
-            <h3 className="font-semibold mt-14 ml-12 z-50">
+            <h3 className="font-semibold mt-14 ml-12 z-50 Gilroy-bold">
               YOU MAY CONTACT US FOR CONSTRUCTION & RENOVATION WORK
             </h3>
-            <h1 className='text-[40px] text-black z-50'>
+            <h1 className='text-[40px] text-black z-50 Gilroy-Medium'>
               We Are Great Construction <br />
               Company
             </h1>
@@ -29,7 +29,7 @@ const Contact = () => {
               height={300} 
               className="ml-[100px]" 
             />
-            <button className='bg-custom-yellow py-3 px-4 ml-[430px] font-semibold text-white rounded-md -bottom-[1400px] absolute hover:bg-gray-500'>
+            <button className='Gilroy-bold bg-custom-yellow py-3 px-4 ml-[430px] font-semibold text-white rounded-md -bottom-[1400px] absolute hover:bg-gray-500'>
               Make An Appointment
             </button>
           </div>
