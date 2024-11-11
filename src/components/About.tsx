@@ -23,7 +23,7 @@ const About = () => {
             Ocean Language.
           </p>
           <div className="flex flex-row mt-5">
-            <div className="w-[200px] h-[170px] bg-[#595959]">
+            <div className="relative w-[200px] h-[170px] bg-[#595959] group hover:scale-105 transform transition-all duration-300">
               <div className="flex flex-row text-center">
                 <div className="flex flex-col mt-5 ml-5 Gilroy-Medium">
                   {/* Using next/image for optimization */}
@@ -38,9 +38,11 @@ const About = () => {
                   </h6>
                 </div>
               </div>
+              {/* Light yellow overlay */}
+              <div className="absolute inset-0 bg-[#595959] hover:bg-custom-yellow opacity-20 group-hover:opacity-40 transition-opacity duration-300"></div>
             </div>
 
-            <div className="w-[200px] h-[170px] bg-[#595959] ml-8">
+            <div className="relative w-[200px] h-[170px] bg-[#595959] ml-8 group hover:scale-105 transform transition-all duration-300">
               <div className="flex flex-row text-center Gilroy-Medium">
                 <div className="flex flex-col mt-5 ml-5">
                   {/* Using next/image for optimization */}
@@ -55,11 +57,13 @@ const About = () => {
                   </h6>
                 </div>
               </div>
+              {/* Light yellow overlay */}
+              <div className="absolute inset-0 bg-[#595959] opacity-20 group-hover:opacity-40 hover:bg-custom-yellow transition-opacity duration-300"></div>
             </div>
           </div>
 
           <div className="flex flex-row mt-5">
-            <div className="w-[200px] h-[170px] bg-[#595959]">
+            <div className="relative w-[200px] h-[170px] bg-[#595959] group hover:scale-105 transform transition-all duration-300">
               <div className="flex flex-row text-center">
                 <div className="flex flex-col mt-5 ml-5 Gilroy-Medium">
                   {/* Using next/image for optimization */}
@@ -74,9 +78,11 @@ const About = () => {
                   </h6>
                 </div>
               </div>
+              {/* Light yellow overlay */}
+              <div className="absolute inset-0 bg-[#595959] opacity-20 group-hover:opacity-40 transition-opacity hover:bg-custom-yellow duration-300"></div>
             </div>
 
-            <div className="w-[200px] h-[170px] bg-[#595959] ml-8">
+            <div className="relative w-[200px] h-[170px] bg-[#595959] ml-8 group hover:scale-105 transform transition-all duration-300">
               <div className="flex flex-row text-center">
                 <div className="flex flex-col mt-5 ml-5">
                   {/* Using next/image for optimization */}
@@ -91,6 +97,8 @@ const About = () => {
                   </h6>
                 </div>
               </div>
+              {/* Light yellow overlay */}
+              <div className="absolute inset-0 bg-[#595959] opacity-20 group-hover:opacity-40 hover:bg-custom-yellow transition-opacity duration-300"></div>
             </div>
           </div>
         </div>

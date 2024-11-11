@@ -11,7 +11,7 @@ const Staff = () => {
   ];
 
   return (
-    <div className='flex flex-col h-[800px] w-full justify-center items-center text-center bg-slate-100'>
+    <div className='flex flex-col h-[900px] w-full justify-center items-center text-center bg-slate-100'>
       <div>
         <h1 className='text-lg text-custom-yellow font-bold'>
           TEAM & STAFF<br />
@@ -25,21 +25,21 @@ const Staff = () => {
             <Image
               src={member.image}
               alt={member.name}
-              width={300} // Adjust width as needed
-              height={590} // Adjust height as needed
-              className='h-[590px] rounded-2xl'
+              width={400} // Adjust width as needed
+              height={690} // Adjust height as needed
+              className='h-[690px] rounded-2xl'
             />
 
             {/* Social Media Icons */}
-            <div className='absolute top-5 mt-96 left-5 flex flex-col gap-3 opacity-0 group-hover:opacity-100 transition-opacity duration-300'>
+            <div className='absolute top-5 mt-[450px] left-5 flex flex-col gap-3 opacity-0 group-hover:opacity-100 transition-opacity duration-300'>
               <Link href="#" className='text-white bg-gray-800 p-2 rounded-full hover:text-blue-500'>
-                <FaTwitter size={30} />
+                <FaTwitter size={40} />
               </Link >
               <Link  href="#" className='text-white bg-gray-800 p-2 rounded-full hover:text-blue-600'>
-                <FaFacebook size={30} />
+                <FaFacebook size={40} />
               </Link >
               <Link  href="#" className='text-white bg-gray-800 p-2 rounded-full hover:text-pink-500'>
-                <FaInstagram size={30} />
+                <FaInstagram size={40} />
               </Link >
             </div>
 
