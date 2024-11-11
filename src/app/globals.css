@@ -31,14 +31,7 @@ body {
   transition: width 0.3s ease; /* Slide effect */
 }
 
-.logo-bg:hover {
-  width: 140px; /* Expand on hover */
-}
 
-/* Top Bar */
-.text-yellow-500 {
-  color: #ffbf00;
-}
 
 /* Adjusted .logo-bg1 for better readability */
 .logo-bg1 {

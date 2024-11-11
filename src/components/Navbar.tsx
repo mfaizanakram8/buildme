@@ -24,7 +24,7 @@ const Navbar = () => {
       {/* Navbar */}
       <div className="bg-[#707070] flex justify-between items-center px-6 py-5 relative h-[70px] border border-[#EBAE15]">
         <span className="logo-bg absolute inset-y-0 left-0"></span>
-        <span className='logo-bg1 ml-[430px]'></span>
+        <span className='logo-bg1 ml-[420px]'></span>
 
         {/* Logo with Full-Height Yellow Background */}
         <div className="relative h-full flex items-center">
@@ -32,7 +32,7 @@ const Navbar = () => {
         </div>
 
         {/* Nav Links */}
-        <div className="flex space-x-16 text-white font-medium">
+        <div className="flex space-x-16 text-white font-bold">
           {/* Use Link component for Next.js navigation */}
           <Link href="#home" className=" relative text-[#000000] Gilroy-Bold ">
         HOME   

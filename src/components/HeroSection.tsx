@@ -9,19 +9,19 @@ const Hero = () => {
         {/* Border and Year Section */}
         <div className="flex flex-row text-center justify-center items-center mt-9 mb-4">
           <div className="border border-[#EBAE15] w-28 mr-6" />
-          <h5 className="text-[34px] text-white font-semibold">1983</h5>
+          <h5 className="text-[34px] text-white font-semibold">1982</h5>
           <div className="border border-[#EBAE15] w-28 ml-6" />
         </div>
 
         {/* Main Title */}
-        <h1 className="text-[54px] text-white Gilroy-Bold">
+        <h1 className="text-[54px] text-white Gilroy-Bold font-bold">
           WE WILL BE <span className="text-[#EBAE15]">HAPPY</span> TO <br />
           TAKE CARE OF YOUR <br />
           WORK
         </h1>
 
         {/* Description */}
-        <p className="text-white text-sm mt-10 Gilroy-Medium">
+        <p className="text-white text-lg mt-10 Gilroy-Medium">
           Lorem ipsum dolor sit amet consectetur. <br />
           Tortor justo consequat pharetra justquis <br />
           Tortor justo consequat pharetra justquis
